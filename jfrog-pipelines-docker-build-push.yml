@@ -59,14 +59,14 @@ pipelines:
           inputResources:
             - name: repo_1_docker_build_push
           integrations:
-            - name: demoArt
+            - name: omerhAol
 
       - name: docker_push
         type: DockerPush
         configuration:
           targetRepository: docker-local
           integrations:
-            - name: demoArt
+            - name: omerhAol
           inputSteps:
             - name: docker_build
 
@@ -83,7 +83,7 @@ pipelines:
         configuration:
           targetRepository: promoted-pipelines
           integrations:
-            - name: demoArt
+            - name: omerhAol
           inputResources:
             - name: build_info_1_docker_build_push
           outputResources:
