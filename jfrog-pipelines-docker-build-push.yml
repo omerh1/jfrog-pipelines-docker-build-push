@@ -3,7 +3,7 @@ resources:
     type: GitRepo
     configuration:
       gitProvider: github   # replace with your integration
-      path: BatelT/jfrog-pipelines-docker-build-push    # replace with your repository name
+      path: omerh1/jfrog-pipelines-docker-build-push    # replace with your repository name
       branches:
         include: master
 
